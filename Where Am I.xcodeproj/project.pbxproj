@@ -13,6 +13,8 @@
 		087DD7971A707E7500DF9E84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087DD7951A707E7500DF9E84 /* Main.storyboard */; };
 		087DD7991A707E7500DF9E84 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087DD7981A707E7500DF9E84 /* Images.xcassets */; };
 		087DD7A51A707E7500DF9E84 /* Where_Am_ITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 087DD7A41A707E7500DF9E84 /* Where_Am_ITests.swift */; };
+		087DD7AF1A707ED800DF9E84 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087DD7AE1A707ED800DF9E84 /* CoreLocation.framework */; };
+		087DD7B11A7181DF00DF9E84 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 087DD7B01A7181DF00DF9E84 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		087DD79E1A707E7500DF9E84 /* Where Am ITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Where Am ITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		087DD7A31A707E7500DF9E84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		087DD7A41A707E7500DF9E84 /* Where_Am_ITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Where_Am_ITests.swift; sourceTree = "<group>"; };
+		087DD7AE1A707ED800DF9E84 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		087DD7B01A7181DF00DF9E84 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				087DD7B11A7181DF00DF9E84 /* MapKit.framework in Frameworks */,
+				087DD7AF1A707ED800DF9E84 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +65,8 @@
 		087DD7801A707E7400DF9E84 = {
 			isa = PBXGroup;
 			children = (
+				087DD7B01A7181DF00DF9E84 /* MapKit.framework */,
+				087DD7AE1A707ED800DF9E84 /* CoreLocation.framework */,
 				087DD78B1A707E7400DF9E84 /* Where Am I */,
 				087DD7A11A707E7500DF9E84 /* Where Am ITests */,
 				087DD78A1A707E7400DF9E84 /* Products */,
